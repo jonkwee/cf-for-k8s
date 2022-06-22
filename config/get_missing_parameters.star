@@ -37,9 +37,7 @@ def get_missing_parameters(values):
     required_parameters = '''\
 app_domains
 app_registry.hostname
-app_registry.password
 app_registry.repository_prefix
-app_registry.username
 blobstore.secret_access_key'''.split("\n")
 
     if not values.experimental.quarks_secret.enable:
